@@ -25,7 +25,7 @@ dbConnection();
 
 app.use(helmet());
 app.use(cors({
-    origin : "https://frontend-app-v1x6.onrender.com"
+    origin : "https://frontend-app-v1x6.onrender.com/"
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
